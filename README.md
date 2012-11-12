@@ -30,3 +30,13 @@
     12/11/12 10:04:51 INFO jackknife.logging: Finished opening domain at /Users/jvandijk/Projects/Github/me/elephantdb-trail/tmp/docs
     12/11/12 10:04:51 INFO jackknife.logging: Starting ElephantDB server...
     
+## Trying to run ElephantDB client
+
+  cd client; lein repl
+  
+    user=> (status)
+    #<Status Status(domain_statuses:{})>
+    user=> (domains)
+    nil
+    user=> 
+
