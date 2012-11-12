@@ -1,5 +1,7 @@
 # Elephantdb steps
 
+This project is meant to show my efforts to get  up and running with Elephantdb (https://github.com/nathanmarz/elephantdb). So far I have been able to create shards, start the database locally (version 0.2.0-wip4), connect with the db from the repl. It seems that something in my configuration is wrong since I'm not able to retrieve any data.
+
 ## Creating shards with cascalog
 
     cd shardgen; lein run -m shardgen.core
